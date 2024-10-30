@@ -1,0 +1,1064 @@
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6234112   761 8192 allocating memory for b-tree...
+  6234112   761 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12730368            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-00152204) ... ... OK
+  1. Creating a new segment  (00153E18-00164618) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010A8C-00010AAF) ... ... OK
+  3. Creating a new segment  (00010AAF-00152204) ... ... OK
+  4. Creating a new segment  (00010AB0-00011110) ... ... OK
+  5. Creating a new segment  (00011110-00152204) ... ... OK
+  6. Creating a new segment  (00011110-00011130) ... ... OK
+     Deleting segment        (00011130-00152204) ...
+  6. Creating a new segment  (00011130-00152204) ... ... OK
+  7. Creating a new segment  (00011130-001147B4) ... ... OK
+     Deleting segment        (001147B4-00152204) ...
+  7. Creating a new segment  (001147B4-00152204) ... ... OK
+  8. Creating a new segment  (001147B4-001147C8) ... ... OK
+     Deleting segment        (001147C8-00152204) ...
+  8. Creating a new segment  (001147C8-00152204) ... ... OK
+  9. Creating a new segment  (001147E0-00138B9F) ... ... OK
+ 10. Creating a new segment  (00138B9F-00152204) ... ... OK
+ 11. Creating a new segment  (00138BA0-0013D3A4) ... ... OK
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+     Deleting segment        (0013D3A4-00152204) ...
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+ 13. Creating a new segment  (00153E18-00153E1C) ... ... OK
+     Deleting segment        (00153E1C-00164618) ...
+ 13. Creating a new segment  (00153E1C-00164618) ... ... OK
+ 14. Creating a new segment  (00153E1C-00153E20) ... ... OK
+     Deleting segment        (00153E20-00164618) ...
+ 14. Creating a new segment  (00153E20-00164618) ... ... OK
+ 15. Creating a new segment  (00153E20-0015CD18) ... ... OK
+     Deleting segment        (0015CD18-00164618) ...
+ 15. Creating a new segment  (0015CD18-00164618) ... ... OK
+ 16. Creating a new segment  (0015CE18-0015CFEC) ... ... OK
+ 17. Creating a new segment  (0015CFEC-00164618) ... ... OK
+ 18. Creating a new segment  (0015D000-001600F4) ... ... OK
+ 19. Creating a new segment  (001600F4-00164618) ... ... OK
+ 20. Creating a new segment  (00160100-00164618) ... ... OK
+ 21. Creating a new segment  (00164618-00164619) ... ... OK
+ 22. Creating a new segment  (0016461C-001647E8) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 1280
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  5373952   656 8192 allocating memory for b-tree...
+  5373952   656 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 11010048            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O1' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-00121CC0) ... ... OK
+  1. Creating a new segment  (00123C78-00134458) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010AA4-00010AC7) ... ... OK
+  3. Creating a new segment  (00010AC7-00121CC0) ... ... OK
+  4. Creating a new segment  (00010AD0-000110F0) ... ... OK
+  5. Creating a new segment  (000110F0-00121CC0) ... ... OK
+  6. Creating a new segment  (000110F0-00011110) ... ... OK
+     Deleting segment        (00011110-00121CC0) ...
+  6. Creating a new segment  (00011110-00121CC0) ... ... OK
+  7. Creating a new segment  (00011110-000C97B4) ... ... OK
+     Deleting segment        (000C97B4-00121CC0) ...
+  7. Creating a new segment  (000C97B4-00121CC0) ... ... OK
+  8. Creating a new segment  (000C97B4-000C97C8) ... ... OK
+     Deleting segment        (000C97C8-00121CC0) ...
+  8. Creating a new segment  (000C97C8-00121CC0) ... ... OK
+  9. Creating a new segment  (000C97E0-000EAA1B) ... ... OK
+ 10. Creating a new segment  (000EAA1B-00121CC0) ... ... OK
+ 11. Creating a new segment  (000EAA1C-000EDEC0) ... ... OK
+ 12. Creating a new segment  (000EDEC0-00121CC0) ... ... OK
+     Deleting segment        (000EDEC0-00121CC0) ...
+ 12. Creating a new segment  (000EDEC0-00121CC0) ... ... OK
+ 13. Creating a new segment  (00123C78-00123C7C) ... ... OK
+     Deleting segment        (00123C7C-00134458) ...
+ 13. Creating a new segment  (00123C7C-00134458) ... ... OK
+ 14. Creating a new segment  (00123C7C-00123C80) ... ... OK
+     Deleting segment        (00123C80-00134458) ...
+ 14. Creating a new segment  (00123C80-00134458) ... ... OK
+ 15. Creating a new segment  (00123C80-0012CD18) ... ... OK
+     Deleting segment        (0012CD18-00134458) ...
+ 15. Creating a new segment  (0012CD18-00134458) ... ... OK
+ 16. Creating a new segment  (0012CE18-0012CFF0) ... ... OK
+ 17. Creating a new segment  (0012CFF0-00134458) ... ... OK
+ 18. Creating a new segment  (0012D000-0012FF74) ... ... OK
+ 19. Creating a new segment  (0012FF74-00134458) ... ... OK
+ 20. Creating a new segment  (0012FF80-00134458) ... ... OK
+ 21. Creating a new segment  (00134458-00134459) ... ... OK
+ 22. Creating a new segment  (0013445C-00134618) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O1' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 928
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6307840   770 8192 allocating memory for b-tree...
+  6307840   770 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12877824            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O3' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-0015B214) ... ... OK
+  1. Creating a new segment  (0015CCD8-0016D458) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010AAC-00010ACF) ... ... OK
+  3. Creating a new segment  (00010ACF-0015B214) ... ... OK
+  4. Creating a new segment  (00010AD0-00011120) ... ... OK
+  5. Creating a new segment  (00011120-0015B214) ... ... OK
+  6. Creating a new segment  (00011120-00011140) ... ... OK
+     Deleting segment        (00011140-0015B214) ...
+  6. Creating a new segment  (00011140-0015B214) ... ... OK
+  7. Creating a new segment  (00011140-000FC1A4) ... ... OK
+     Deleting segment        (000FC1A4-0015B214) ...
+  7. Creating a new segment  (000FC1A4-0015B214) ... ... OK
+  8. Creating a new segment  (000FC1A4-000FC1B8) ... ... OK
+     Deleting segment        (000FC1B8-0015B214) ...
+  8. Creating a new segment  (000FC1B8-0015B214) ... ... OK
+  9. Creating a new segment  (000FC1C0-0011E27B) ... ... OK
+ 10. Creating a new segment  (0011E27B-0015B214) ... ... OK
+ 11. Creating a new segment  (0011E27C-00121260) ... ... OK
+ 12. Creating a new segment  (00121260-0015B214) ... ... OK
+     Deleting segment        (00121260-0015B214) ...
+ 12. Creating a new segment  (00121260-0015B214) ... ... OK
+ 13. Creating a new segment  (0015CCD8-0015CCDC) ... ... OK
+     Deleting segment        (0015CCDC-0016D458) ...
+ 13. Creating a new segment  (0015CCDC-0016D458) ... ... OK
+ 14. Creating a new segment  (0015CCDC-0015CCE0) ... ... OK
+     Deleting segment        (0015CCE0-0016D458) ...
+ 14. Creating a new segment  (0015CCE0-0016D458) ... ... OK
+ 15. Creating a new segment  (0015CCE0-00165D18) ... ... OK
+     Deleting segment        (00165D18-0016D458) ...
+ 15. Creating a new segment  (00165D18-0016D458) ... ... OK
+ 16. Creating a new segment  (00165E18-00165FFC) ... ... OK
+ 17. Creating a new segment  (00165FFC-0016D458) ... ... OK
+ 18. Creating a new segment  (00166000-00168F74) ... ... OK
+ 19. Creating a new segment  (00168F74-0016D458) ... ... OK
+ 20. Creating a new segment  (00168F80-0016D458) ... ... OK
+ 21. Creating a new segment  (0016D458-0016D459) ... ... OK
+ 22. Creating a new segment  (0016D45C-0016D624) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O3' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 919
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  4341760   530 8192 allocating memory for b-tree...
+  4341760   530 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  8945664            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O0' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-000E1E7C) ... ... OK
+  1. Creating a new segment  (000E3D38-000EB338) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00003398-000033BB) ... ... OK
+  3. Creating a new segment  (000033BB-000E1E7C) ... ... OK
+  4. Creating a new segment  (000033C0-00003910) ... ... OK
+  5. Creating a new segment  (00003910-000E1E7C) ... ... OK
+  6. Creating a new segment  (00003910-00003930) ... ... OK
+     Deleting segment        (00003930-000E1E7C) ...
+  6. Creating a new segment  (00003930-000E1E7C) ... ... OK
+  7. Creating a new segment  (00003930-000A1704) ... ... OK
+     Deleting segment        (000A1704-000E1E7C) ...
+  7. Creating a new segment  (000A1704-000E1E7C) ... ... OK
+  8. Creating a new segment  (000A1704-000A1718) ... ... OK
+     Deleting segment        (000A1718-000E1E7C) ...
+  8. Creating a new segment  (000A1718-000E1E7C) ... ... OK
+  9. Creating a new segment  (000A1720-000D7430) ... ... OK
+ 10. Creating a new segment  (000D7430-000E1E7C) ... ... OK
+ 11. Creating a new segment  (000D7430-000D9264) ... ... OK
+     Deleting segment        (000D9264-000E1E7C) ...
+ 11. Creating a new segment  (000D9264-000E1E7C) ... ... OK
+     Deleting segment        (000D9264-000E1E7C) ...
+ 11. Creating a new segment  (000D9264-000E1E7C) ... ... OK
+ 12. Creating a new segment  (000E3D38-000E3D3C) ... ... OK
+     Deleting segment        (000E3D3C-000EB338) ...
+ 12. Creating a new segment  (000E3D3C-000EB338) ... ... OK
+ 13. Creating a new segment  (000E3D3C-000E3D40) ... ... OK
+     Deleting segment        (000E3D40-000EB338) ...
+ 13. Creating a new segment  (000E3D40-000EB338) ... ... OK
+ 14. Creating a new segment  (000E3D40-000E4D60) ... ... OK
+     Deleting segment        (000E4D60-000EB338) ...
+ 14. Creating a new segment  (000E4D60-000EB338) ... ... OK
+ 15. Creating a new segment  (000E4E58-000E4FE4) ... ... OK
+ 16. Creating a new segment  (000E4FE4-000EB338) ... ... OK
+ 17. Creating a new segment  (000E5000-000E6454) ... ... OK
+ 18. Creating a new segment  (000E6454-000EB338) ... ... OK
+ 19. Creating a new segment  (000E6460-000EB338) ... ... OK
+ 20. Creating a new segment  (000EB338-000EB339) ... ... OK
+ 21. Creating a new segment  (000EB33C-000EB344) ... ... OK
+ 22. Creating a new segment  (000EB344-000EB4C8) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O0' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 665
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  4177920   510 8192 allocating memory for b-tree...
+  4177920   510 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  8617984            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O1' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-000DA16C) ... ... OK
+  1. Creating a new segment  (000DBB78-000E31B0) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (000034A4-000034C7) ... ... OK
+  3. Creating a new segment  (000034C7-000DA16C) ... ... OK
+  4. Creating a new segment  (000034D0-00003A30) ... ... OK
+  5. Creating a new segment  (00003A30-000DA16C) ... ... OK
+  6. Creating a new segment  (00003A30-00003A50) ... ... OK
+     Deleting segment        (00003A50-000DA16C) ...
+  6. Creating a new segment  (00003A50-000DA16C) ... ... OK
+  7. Creating a new segment  (00003A50-0007C174) ... ... OK
+     Deleting segment        (0007C174-000DA16C) ...
+  7. Creating a new segment  (0007C174-000DA16C) ... ... OK
+  8. Creating a new segment  (0007C174-0007C188) ... ... OK
+     Deleting segment        (0007C188-000DA16C) ...
+  8. Creating a new segment  (0007C188-000DA16C) ... ... OK
+  9. Creating a new segment  (0007C1A0-000B17E0) ... ... OK
+ 10. Creating a new segment  (000B17E0-000DA16C) ... ... OK
+ 11. Creating a new segment  (000B17E0-000B2E74) ... ... OK
+     Deleting segment        (000B2E74-000DA16C) ...
+ 11. Creating a new segment  (000B2E74-000DA16C) ... ... OK
+     Deleting segment        (000B2E74-000DA16C) ...
+ 11. Creating a new segment  (000B2E74-000DA16C) ... ... OK
+ 12. Creating a new segment  (000DBB78-000DBB7C) ... ... OK
+     Deleting segment        (000DBB7C-000E31B0) ...
+ 12. Creating a new segment  (000DBB7C-000E31B0) ... ... OK
+ 13. Creating a new segment  (000DBB7C-000DBB80) ... ... OK
+     Deleting segment        (000DBB80-000E31B0) ...
+ 13. Creating a new segment  (000DBB80-000E31B0) ... ... OK
+ 14. Creating a new segment  (000DBB80-000DCD40) ... ... OK
+     Deleting segment        (000DCD40-000E31B0) ...
+ 14. Creating a new segment  (000DCD40-000E31B0) ... ... OK
+ 15. Creating a new segment  (000DCE38-000DCFEC) ... ... OK
+ 16. Creating a new segment  (000DCFEC-000E31B0) ... ... OK
+ 17. Creating a new segment  (000DD000-000DE290) ... ... OK
+ 18. Creating a new segment  (000DE290-000E31B0) ... ... OK
+ 19. Creating a new segment  (000DE2A0-000E31B0) ... ... OK
+ 20. Creating a new segment  (000E31B0-000E31B1) ... ... OK
+ 21. Creating a new segment  (000E31BC-000E31C4) ... ... OK
+ 22. Creating a new segment  (000E31C4-000E334C) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O1' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 507
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  4816896   588 8192 allocating memory for b-tree...
+  4816896   588 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  9895936            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O3' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-000FF9B0) ... ... OK
+  1. Creating a new segment  (00100C98-001081B0) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (000033D0-000033F3) ... ... OK
+  3. Creating a new segment  (000033F3-000FF9B0) ... ... OK
+  4. Creating a new segment  (00003400-00003980) ... ... OK
+  5. Creating a new segment  (00003980-000FF9B0) ... ... OK
+  6. Creating a new segment  (00003980-000039A0) ... ... OK
+     Deleting segment        (000039A0-000FF9B0) ...
+  6. Creating a new segment  (000039A0-000FF9B0) ... ... OK
+  7. Creating a new segment  (000039A0-0009EAE4) ... ... OK
+     Deleting segment        (0009EAE4-000FF9B0) ...
+  7. Creating a new segment  (0009EAE4-000FF9B0) ... ... OK
+  8. Creating a new segment  (0009EAE4-0009EAF8) ... ... OK
+     Deleting segment        (0009EAF8-000FF9B0) ...
+  8. Creating a new segment  (0009EAF8-000FF9B0) ... ... OK
+  9. Creating a new segment  (0009EB00-000D4AA0) ... ... OK
+ 10. Creating a new segment  (000D4AA0-000FF9B0) ... ... OK
+ 11. Creating a new segment  (000D4AA0-000D5F94) ... ... OK
+     Deleting segment        (000D5F94-000FF9B0) ...
+ 11. Creating a new segment  (000D5F94-000FF9B0) ... ... OK
+     Deleting segment        (000D5F94-000FF9B0) ...
+ 11. Creating a new segment  (000D5F94-000FF9B0) ... ... OK
+ 12. Creating a new segment  (00100C98-00100C9C) ... ... OK
+     Deleting segment        (00100C9C-001081B0) ...
+ 12. Creating a new segment  (00100C9C-001081B0) ... ... OK
+ 13. Creating a new segment  (00100C9C-00100CA0) ... ... OK
+     Deleting segment        (00100CA0-001081B0) ...
+ 13. Creating a new segment  (00100CA0-001081B0) ... ... OK
+ 14. Creating a new segment  (00100CA0-00101D40) ... ... OK
+     Deleting segment        (00101D40-001081B0) ...
+ 14. Creating a new segment  (00101D40-001081B0) ... ... OK
+ 15. Creating a new segment  (00101E38-00101FF4) ... ... OK
+ 16. Creating a new segment  (00101FF4-001081B0) ... ... OK
+ 17. Creating a new segment  (00102000-00103290) ... ... OK
+ 18. Creating a new segment  (00103290-001081B0) ... ... OK
+ 19. Creating a new segment  (001032A0-001081B0) ... ... OK
+ 20. Creating a new segment  (001081B0-001081B1) ... ... OK
+ 21. Creating a new segment  (001081B4-00108344) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-readelf-2.34-O3' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 490
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  5545984   677 8192 allocating memory for b-tree...
+  5545984   677 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 11354112            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O2' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-0012D6D4) ... ... OK
+  1. Creating a new segment  (0012EC98-0013F458) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010AD4-00010AF7) ... ... OK
+  3. Creating a new segment  (00010AF7-0012D6D4) ... ... OK
+  4. Creating a new segment  (00010B00-00011140) ... ... OK
+  5. Creating a new segment  (00011140-0012D6D4) ... ... OK
+  6. Creating a new segment  (00011140-00011160) ... ... OK
+     Deleting segment        (00011160-0012D6D4) ...
+  6. Creating a new segment  (00011160-0012D6D4) ... ... OK
+  7. Creating a new segment  (00011160-000D3EC4) ... ... OK
+     Deleting segment        (000D3EC4-0012D6D4) ...
+  7. Creating a new segment  (000D3EC4-0012D6D4) ... ... OK
+  8. Creating a new segment  (000D3EC4-000D3ED8) ... ... OK
+     Deleting segment        (000D3ED8-0012D6D4) ...
+  8. Creating a new segment  (000D3ED8-0012D6D4) ... ... OK
+  9. Creating a new segment  (000D3EE0-000F4DBB) ... ... OK
+ 10. Creating a new segment  (000F4DBB-0012D6D4) ... ... OK
+ 11. Creating a new segment  (000F4DBC-000F8150) ... ... OK
+ 12. Creating a new segment  (000F8150-0012D6D4) ... ... OK
+     Deleting segment        (000F8150-0012D6D4) ...
+ 12. Creating a new segment  (000F8150-0012D6D4) ... ... OK
+ 13. Creating a new segment  (0012EC98-0012EC9C) ... ... OK
+     Deleting segment        (0012EC9C-0013F458) ...
+ 13. Creating a new segment  (0012EC9C-0013F458) ... ... OK
+ 14. Creating a new segment  (0012EC9C-0012ECA0) ... ... OK
+     Deleting segment        (0012ECA0-0013F458) ...
+ 14. Creating a new segment  (0012ECA0-0013F458) ... ... OK
+ 15. Creating a new segment  (0012ECA0-00137D18) ... ... OK
+     Deleting segment        (00137D18-0013F458) ...
+ 15. Creating a new segment  (00137D18-0013F458) ... ... OK
+ 16. Creating a new segment  (00137E18-00137FF8) ... ... OK
+ 17. Creating a new segment  (00137FF8-0013F458) ... ... OK
+ 18. Creating a new segment  (00138000-0013AF74) ... ... OK
+ 19. Creating a new segment  (0013AF74-0013F458) ... ... OK
+ 20. Creating a new segment  (0013AF80-0013F458) ... ... OK
+ 21. Creating a new segment  (0013F458-0013F459) ... ... OK
+ 22. Creating a new segment  (0013F45C-0013F620) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O2' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+func num: 927
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  5545984   677 8192 allocating memory for b-tree...
+  5545984   677 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 11354112            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O2' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-0012D6D4) ... ... OK
+  1. Creating a new segment  (0012EC98-0013F458) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010AD4-00010AF7) ... ... OK
+  3. Creating a new segment  (00010AF7-0012D6D4) ... ... OK
+  4. Creating a new segment  (00010B00-00011140) ... ... OK
+  5. Creating a new segment  (00011140-0012D6D4) ... ... OK
+  6. Creating a new segment  (00011140-00011160) ... ... OK
+     Deleting segment        (00011160-0012D6D4) ...
+  6. Creating a new segment  (00011160-0012D6D4) ... ... OK
+  7. Creating a new segment  (00011160-000D3EC4) ... ... OK
+     Deleting segment        (000D3EC4-0012D6D4) ...
+  7. Creating a new segment  (000D3EC4-0012D6D4) ... ... OK
+  8. Creating a new segment  (000D3EC4-000D3ED8) ... ... OK
+     Deleting segment        (000D3ED8-0012D6D4) ...
+  8. Creating a new segment  (000D3ED8-0012D6D4) ... ... OK
+  9. Creating a new segment  (000D3EE0-000F4DBB) ... ... OK
+ 10. Creating a new segment  (000F4DBB-0012D6D4) ... ... OK
+ 11. Creating a new segment  (000F4DBC-000F8150) ... ... OK
+ 12. Creating a new segment  (000F8150-0012D6D4) ... ... OK
+     Deleting segment        (000F8150-0012D6D4) ...
+ 12. Creating a new segment  (000F8150-0012D6D4) ... ... OK
+ 13. Creating a new segment  (0012EC98-0012EC9C) ... ... OK
+     Deleting segment        (0012EC9C-0013F458) ...
+ 13. Creating a new segment  (0012EC9C-0013F458) ... ... OK
+ 14. Creating a new segment  (0012EC9C-0012ECA0) ... ... OK
+     Deleting segment        (0012ECA0-0013F458) ...
+ 14. Creating a new segment  (0012ECA0-0013F458) ... ... OK
+ 15. Creating a new segment  (0012ECA0-00137D18) ... ... OK
+     Deleting segment        (00137D18-0013F458) ...
+ 15. Creating a new segment  (00137D18-0013F458) ... ... OK
+ 16. Creating a new segment  (00137E18-00137FF8) ... ... OK
+ 17. Creating a new segment  (00137FF8-0013F458) ... ... OK
+ 18. Creating a new segment  (00138000-0013AF74) ... ... OK
+ 19. Creating a new segment  (0013AF74-0013F458) ... ... OK
+ 20. Creating a new segment  (0013AF80-0013F458) ... ... OK
+ 21. Creating a new segment  (0013F458-0013F459) ... ... OK
+ 22. Creating a new segment  (0013F45C-0013F620) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O2' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6234112   761 8192 allocating memory for b-tree...
+  6234112   761 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12730368            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-00152204) ... ... OK
+  1. Creating a new segment  (00153E18-00164618) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010A8C-00010AAF) ... ... OK
+  3. Creating a new segment  (00010AAF-00152204) ... ... OK
+  4. Creating a new segment  (00010AB0-00011110) ... ... OK
+  5. Creating a new segment  (00011110-00152204) ... ... OK
+  6. Creating a new segment  (00011110-00011130) ... ... OK
+     Deleting segment        (00011130-00152204) ...
+  6. Creating a new segment  (00011130-00152204) ... ... OK
+  7. Creating a new segment  (00011130-001147B4) ... ... OK
+     Deleting segment        (001147B4-00152204) ...
+  7. Creating a new segment  (001147B4-00152204) ... ... OK
+  8. Creating a new segment  (001147B4-001147C8) ... ... OK
+     Deleting segment        (001147C8-00152204) ...
+  8. Creating a new segment  (001147C8-00152204) ... ... OK
+  9. Creating a new segment  (001147E0-00138B9F) ... ... OK
+ 10. Creating a new segment  (00138B9F-00152204) ... ... OK
+ 11. Creating a new segment  (00138BA0-0013D3A4) ... ... OK
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+     Deleting segment        (0013D3A4-00152204) ...
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+ 13. Creating a new segment  (00153E18-00153E1C) ... ... OK
+     Deleting segment        (00153E1C-00164618) ...
+ 13. Creating a new segment  (00153E1C-00164618) ... ... OK
+ 14. Creating a new segment  (00153E1C-00153E20) ... ... OK
+     Deleting segment        (00153E20-00164618) ...
+ 14. Creating a new segment  (00153E20-00164618) ... ... OK
+ 15. Creating a new segment  (00153E20-0015CD18) ... ... OK
+     Deleting segment        (0015CD18-00164618) ...
+ 15. Creating a new segment  (0015CD18-00164618) ... ... OK
+ 16. Creating a new segment  (0015CE18-0015CFEC) ... ... OK
+ 17. Creating a new segment  (0015CFEC-00164618) ... ... OK
+ 18. Creating a new segment  (0015D000-001600F4) ... ... OK
+ 19. Creating a new segment  (001600F4-00164618) ... ... OK
+ 20. Creating a new segment  (00160100-00164618) ... ... OK
+ 21. Creating a new segment  (00164618-00164619) ... ... OK
+ 22. Creating a new segment  (0016461C-001647E8) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6234112   761 8192 allocating memory for b-tree...
+  6234112   761 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12730368            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-00152204) ... ... OK
+  1. Creating a new segment  (00153E18-00164618) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010A8C-00010AAF) ... ... OK
+  3. Creating a new segment  (00010AAF-00152204) ... ... OK
+  4. Creating a new segment  (00010AB0-00011110) ... ... OK
+  5. Creating a new segment  (00011110-00152204) ... ... OK
+  6. Creating a new segment  (00011110-00011130) ... ... OK
+     Deleting segment        (00011130-00152204) ...
+  6. Creating a new segment  (00011130-00152204) ... ... OK
+  7. Creating a new segment  (00011130-001147B4) ... ... OK
+     Deleting segment        (001147B4-00152204) ...
+  7. Creating a new segment  (001147B4-00152204) ... ... OK
+  8. Creating a new segment  (001147B4-001147C8) ... ... OK
+     Deleting segment        (001147C8-00152204) ...
+  8. Creating a new segment  (001147C8-00152204) ... ... OK
+  9. Creating a new segment  (001147E0-00138B9F) ... ... OK
+ 10. Creating a new segment  (00138B9F-00152204) ... ... OK
+ 11. Creating a new segment  (00138BA0-0013D3A4) ... ... OK
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+     Deleting segment        (0013D3A4-00152204) ...
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+ 13. Creating a new segment  (00153E18-00153E1C) ... ... OK
+     Deleting segment        (00153E1C-00164618) ...
+ 13. Creating a new segment  (00153E1C-00164618) ... ... OK
+ 14. Creating a new segment  (00153E1C-00153E20) ... ... OK
+     Deleting segment        (00153E20-00164618) ...
+ 14. Creating a new segment  (00153E20-00164618) ... ... OK
+ 15. Creating a new segment  (00153E20-0015CD18) ... ... OK
+     Deleting segment        (0015CD18-00164618) ...
+ 15. Creating a new segment  (0015CD18-00164618) ... ... OK
+ 16. Creating a new segment  (0015CE18-0015CFEC) ... ... OK
+ 17. Creating a new segment  (0015CFEC-00164618) ... ... OK
+ 18. Creating a new segment  (0015D000-001600F4) ... ... OK
+ 19. Creating a new segment  (001600F4-00164618) ... ... OK
+ 20. Creating a new segment  (00160100-00164618) ... ... OK
+ 21. Creating a new segment  (00164618-00164619) ... ... OK
+ 22. Creating a new segment  (0016461C-001647E8) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+D:\Github\PycharmProject\BCSA-Gemini\./getFuncAsm.py: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "D:\Program Files\IDA_Pro_v7.5\python\3\ida_idaapi.py", line 616, in IDAPython_ExecScript
+    exec(code, g)
+  File "D:/Github/PycharmProject/BCSA-Gemini/./getFuncAsm.py", line 48, in <module>
+    for funcname,asm in asmdict:
+ValueError: too many values to unpack (expected 2)
+ -> OK
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6234112   761 8192 allocating memory for b-tree...
+  6234112   761 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12730368            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-00152204) ... ... OK
+  1. Creating a new segment  (00153E18-00164618) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010A8C-00010AAF) ... ... OK
+  3. Creating a new segment  (00010AAF-00152204) ... ... OK
+  4. Creating a new segment  (00010AB0-00011110) ... ... OK
+  5. Creating a new segment  (00011110-00152204) ... ... OK
+  6. Creating a new segment  (00011110-00011130) ... ... OK
+     Deleting segment        (00011130-00152204) ...
+  6. Creating a new segment  (00011130-00152204) ... ... OK
+  7. Creating a new segment  (00011130-001147B4) ... ... OK
+     Deleting segment        (001147B4-00152204) ...
+  7. Creating a new segment  (001147B4-00152204) ... ... OK
+  8. Creating a new segment  (001147B4-001147C8) ... ... OK
+     Deleting segment        (001147C8-00152204) ...
+  8. Creating a new segment  (001147C8-00152204) ... ... OK
+  9. Creating a new segment  (001147E0-00138B9F) ... ... OK
+ 10. Creating a new segment  (00138B9F-00152204) ... ... OK
+ 11. Creating a new segment  (00138BA0-0013D3A4) ... ... OK
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+     Deleting segment        (0013D3A4-00152204) ...
+ 12. Creating a new segment  (0013D3A4-00152204) ... ... OK
+ 13. Creating a new segment  (00153E18-00153E1C) ... ... OK
+     Deleting segment        (00153E1C-00164618) ...
+ 13. Creating a new segment  (00153E1C-00164618) ... ... OK
+ 14. Creating a new segment  (00153E1C-00153E20) ... ... OK
+     Deleting segment        (00153E20-00164618) ...
+ 14. Creating a new segment  (00153E20-00164618) ... ... OK
+ 15. Creating a new segment  (00153E20-0015CD18) ... ... OK
+     Deleting segment        (0015CD18-00164618) ...
+ 15. Creating a new segment  (0015CD18-00164618) ... ... OK
+ 16. Creating a new segment  (0015CE18-0015CFEC) ... ... OK
+ 17. Creating a new segment  (0015CFEC-00164618) ... ... OK
+ 18. Creating a new segment  (0015D000-001600F4) ... ... OK
+ 19. Creating a new segment  (001600F4-00164618) ... ... OK
+ 20. Creating a new segment  (00160100-00164618) ... ... OK
+ 21. Creating a new segment  (00164618-00164619) ... ... OK
+ 22. Creating a new segment  (0016461C-001647E8) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O0' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
+Possible file format: ELF for Intel 386 (Shared object) (D:\Program Files\IDA_Pro_v7.5\loaders\elf.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6307840   770 8192 allocating memory for b-tree...
+  6307840   770 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12877824            total memory allocated
+
+Loading file 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O3' into database...
+Detected file format: ELF for Intel 386 (Shared object)
+Loading processor module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00000000-0015B214) ... ... OK
+  1. Creating a new segment  (0015CCD8-0016D458) ... ... OK
+Assuming __cdecl calling convention by default
+Type library 'gnulnx_x86' loaded. Applying types...
+Types applied to 0 names.
+  2. Creating a new segment  (00010AAC-00010ACF) ... ... OK
+  3. Creating a new segment  (00010ACF-0015B214) ... ... OK
+  4. Creating a new segment  (00010AD0-00011120) ... ... OK
+  5. Creating a new segment  (00011120-0015B214) ... ... OK
+  6. Creating a new segment  (00011120-00011140) ... ... OK
+     Deleting segment        (00011140-0015B214) ...
+  6. Creating a new segment  (00011140-0015B214) ... ... OK
+  7. Creating a new segment  (00011140-000FC1A4) ... ... OK
+     Deleting segment        (000FC1A4-0015B214) ...
+  7. Creating a new segment  (000FC1A4-0015B214) ... ... OK
+  8. Creating a new segment  (000FC1A4-000FC1B8) ... ... OK
+     Deleting segment        (000FC1B8-0015B214) ...
+  8. Creating a new segment  (000FC1B8-0015B214) ... ... OK
+  9. Creating a new segment  (000FC1C0-0011E27B) ... ... OK
+ 10. Creating a new segment  (0011E27B-0015B214) ... ... OK
+ 11. Creating a new segment  (0011E27C-00121260) ... ... OK
+ 12. Creating a new segment  (00121260-0015B214) ... ... OK
+     Deleting segment        (00121260-0015B214) ...
+ 12. Creating a new segment  (00121260-0015B214) ... ... OK
+ 13. Creating a new segment  (0015CCD8-0015CCDC) ... ... OK
+     Deleting segment        (0015CCDC-0016D458) ...
+ 13. Creating a new segment  (0015CCDC-0016D458) ... ... OK
+ 14. Creating a new segment  (0015CCDC-0015CCE0) ... ... OK
+     Deleting segment        (0015CCE0-0016D458) ...
+ 14. Creating a new segment  (0015CCE0-0016D458) ... ... OK
+ 15. Creating a new segment  (0015CCE0-00165D18) ... ... OK
+     Deleting segment        (00165D18-0016D458) ...
+ 15. Creating a new segment  (00165D18-0016D458) ... ... OK
+ 16. Creating a new segment  (00165E18-00165FFC) ... ... OK
+ 17. Creating a new segment  (00165FFC-0016D458) ... ... OK
+ 18. Creating a new segment  (00166000-00168F74) ... ... OK
+ 19. Creating a new segment  (00168F74-0016D458) ... ... OK
+ 20. Creating a new segment  (00168F80-0016D458) ... ... OK
+ 21. Creating a new segment  (0016D458-0016D459) ... ... OK
+ 22. Creating a new segment  (0016D45C-0016D624) ... ... OK
+Processing relocations...
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Github\PycharmProject\BCSA-Gemini\binaryfile\binutils-strings-2.34-O3' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.201028)
+  License: 57-4D81-2146-11 Hex-Rays SA (32767 users)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+================================================================================
+Findcrypt v0.2 by David BERARD, 2017
+Findcrypt search shortcut key is Ctrl-Alt-F
+Global rules in D:\Program Files\IDA_Pro_v7.5\plugins\findcrypt3.rules
+User-defined rules in C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\plugins\findcrypt-yara/*.rules
+================================================================================
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2018
+Keypatch is using Keystone v0.9.2
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Keypatch: configuration is saved to C:\Users\asdfg\AppData\Roaming\Hex-Rays\IDA Pro\keypatch.cfg
+Unloading IDP module D:\Program Files\IDA_Pro_v7.5\procs\pc.dll...
