@@ -1,6 +1,6 @@
 This repository contains the code and the dataset for our  paper.
 
-> The paper will be published later.
+> YANG Hong-yu, WANG Yun-long, HU Ze, CHENG Xiang. Binary Code Similarity Detection Method Based on Cross-Modal Coordinated Representation Learning[J]. Acta Electronica Sinica, 2025 https://doi.org/10.12263/DZXB.20240769
 
 ### Dataset
 
